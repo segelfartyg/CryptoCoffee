@@ -55,7 +55,7 @@ function main(){
  
 function buildImage(canvas){
     const buffer = canvas.toBuffer("image/png");   
-    fs.writeFileSync("./coffee" + count + ".png", buffer)
+    fs.writeFileSync("./Generated/coffee" + count + ".png", buffer)
 }
 
 
