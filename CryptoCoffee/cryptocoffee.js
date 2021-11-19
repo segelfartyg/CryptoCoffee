@@ -24,18 +24,18 @@ function main(){
     
     backnumber = Math.floor(Math.random() * 3) + 1;
 
-    loadImage("./back" + backnumber + "_Rityta 1.png").then(back => {
+    loadImage("./Layers/back" + backnumber + "_Rityta 1.png").then(back => {
      
         context.drawImage(back, 0, 0, 600, 600);    
 
         earnumber = Math.floor(Math.random() * 3) + 1;
-        loadImage("./ear" + earnumber + "_Rityta 1.png").then(ear => {
+        loadImage("./Layers/ear" + earnumber + "_Rityta 1.png").then(ear => {
             context.drawImage(ear, 0, 0, 600, 600);
     
 
 
             mugnumber = Math.floor(Math.random() * 3) + 1;
-            loadImage("./mug" + mugnumber + "_Rityta 1.png").then(mug => {
+            loadImage("./Layers/mug" + mugnumber + "_Rityta 1.png").then(mug => {
                 context.drawImage(mug, 0, 0, 600, 600);
                
     
